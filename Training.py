@@ -28,7 +28,6 @@ print(image_count)
 
 batch_size = 64
 num_classes = 3
-# number of training epochs
 epochs = 15
 img_height = 180
 img_width = 180
@@ -87,4 +86,3 @@ if __name__ == "__main__":
     trainingmodel = config_object["TRAININGMODEL"]
     model.save(trainingmodel["model"])
 
-#Test
