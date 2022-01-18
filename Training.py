@@ -86,3 +86,5 @@ if __name__ == "__main__":
     # save the model to disk
     trainingmodel = config_object["TRAININGMODEL"]
     model.save(trainingmodel["model"])
+
+#Test
